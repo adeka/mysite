@@ -1,0 +1,69 @@
+
+@font-face {
+
+}
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html{
+	height: 100%;
+
+}
+
+body {
+	background: #CCC;
+	color: #000;
+  overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#menu{
+margin: 0 auto;
+overflow: auto;
+width: 250px;
+position: relative;
+top: 30%;
+text-align: center;
+}
+#menu .item{
+padding:.5em;
+font-size: 2em;
+}
+
+.layer{
+	position:absolute;
+	left: -30px;
+	top:-150px;
+
+
+}
+
+path, polygon{
+	//display:none;
+}
+/*
+polygon, path{
+	stroke-dasharray: 10;
+ stroke-dashoffset: 500;
+ animation: dash 10s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+*/
+
+@media screen and (max-width: 46.0625em) {
+
+
+
+}
+
+@media screen and (max-width: 25em) {
+
+
+
+}
